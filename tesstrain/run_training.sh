@@ -65,6 +65,11 @@ run_training() {
         
         if [[ -n "$problem_file" ]]; then
             echo "Removing problematic files..."
+            # Construct the full path only if not already included
+            # if [[ "$problem_file" != /* ]]; then
+            #     problem_file="data/earthMomma-ground-truth/$problem_file"
+            # fi
+
             # Ensure paths are correctly constructed
             base_name=$(basename "$problem_file" .tif) # Extracts the filename without extension
             directory=$(dirname "$problem_file")       # Extracts the directory path
