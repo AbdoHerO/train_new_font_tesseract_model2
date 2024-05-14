@@ -1,0 +1,7 @@
+[submodule "tesstrain"]
+	path = tesstrain
+	url = https://github.com/tesseract-ocr/tesstrain.git
+[submodule "tesseract"]
+	path = tesseract
+	url = https://github.com/tesseract-ocr/tesseract.git
+
