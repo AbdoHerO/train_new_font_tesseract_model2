@@ -1,0 +1,7 @@
+You are using make version: 4.3
+tesseract "data/earthMomma-ground-truth/eng_2267.tif" data/earthMomma-ground-truth/eng_2267 --psm 13 lstm.train
+Tesseract Open Source OCR Engine v4.1.1 with Leptonica
+Page 1
+Failed to read boxes from data/earthMomma-ground-truth/eng_2267.tif
+Error during processing.
+make: *** [Makefile:260: data/earthMomma-ground-truth/eng_2267.lstmf] Error 1
